@@ -17,7 +17,7 @@ parts/
 sdist/
 var/
 wheels/
-.tox
+.tox/
 pip-wheel-metadata/
 share/python-wheels/
 *.egg-info/
@@ -27,7 +27,7 @@ share/python-wheels/
 *.swp
 poodle.egg-info/
 MANIFEST
-.DS_Store
+*.DS_Store
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -41,7 +41,6 @@ pip-delete-this-directory.txt
 
 # Unit test / coverage reports
 htmlcov/
-.tox/
 .nox/
 .coverage
 .coverage.*

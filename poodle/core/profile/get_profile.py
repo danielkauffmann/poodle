@@ -24,7 +24,7 @@ class MoodleProfile:
 
         if not username:
             print("Invalid Username/params - poodle.core.profile")
-            return
+            return {}
 
         params = {
             "wstoken": kwargs["token"],

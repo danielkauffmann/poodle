@@ -27,6 +27,7 @@ requires = [
     "aiohttp>=3.7.4",
     "asyncpg>=0.21.0",
     "colorama>=0.4.4",
+    "convertapi>=1.4.0",
     "cryptography>=3.4.8",
     "psycopg2-binary>=2.9.1",
     "requests>=2.26.0",
@@ -34,6 +35,7 @@ requires = [
 
 test_requirements = [
     "pytest>=6",
+    "coveralls>=3.2.0",
 ]
 
 setup(
@@ -59,11 +61,7 @@ setup(
         "Operating System :: OS Independent",
     ],
     tests_require=test_requirements,
-    extras_require={
-        "dev": [
-            "pytest>=6",
-        ]
-    },
+    extras_require={"dev": test_requirements},
     project_urls={
         "Documentation": about["__url__"],
         "Source": about["__source__"],

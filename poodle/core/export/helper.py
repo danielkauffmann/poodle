@@ -16,7 +16,8 @@ def db_exist(name: str) -> None:
 
 
 def create_moodle_events() -> str:
-    """Return the query responsible for creating the moodle events table on the database which is used in moodle commands"""
+    """Return the query responsible for creating the moodle events table on the database which is used in moodle
+    commands"""
 
     return (
         "CREATE TABLE IF NOT EXISTS moodle_events ("
@@ -37,7 +38,8 @@ def create_moodle_events() -> str:
 
 
 def create_moodle_assign() -> str:
-    """Return the query responsible for creating the moodle assign table on the database which is used in moodle commands"""
+    """Return the query responsible for creating the moodle assign table on the database which is used in moodle
+    commands"""
 
     return (
         "CREATE TABLE IF NOT EXISTS moodle_assign ("
@@ -60,7 +62,8 @@ def create_moodle_assign() -> str:
 
 
 def create_moodle_professor() -> str:
-    """Return the query responsible for creating the moodle professor table on the database which is used to get the status of assignments """
+    """Return the query responsible for creating the moodle professor table on the database which is used to get the
+    status of assignments"""
 
     return (
         "CREATE TABLE IF NOT EXISTS moodle_professors ("
@@ -74,7 +77,8 @@ def create_moodle_professor() -> str:
 
 
 def create_moodle_profile() -> str:
-    """Return the query responsible for creating the users profile with all needed information which is used in moodle's commands"""
+    """Return the query responsible for creating the users profile with all needed information which is used in
+    moodle's commands """
 
     return (
         "CREATE TABLE IF NOT EXISTS moodle_profile ("
