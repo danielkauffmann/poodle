@@ -1,6 +1,6 @@
 # Poodle - Python integration with Moodle Web Service API
 
-> This package is used by [Moodle Organizer Bot](https://github.com/lsglucas/mob)  a Discord multipurpose bot to get users data inside the Discord environment.
+> This package is used by [Moodle Organizer Bot](https://github.com/lsglucas/mob), a Discord multipurpose bot to get users data inside the Discord environment.
 
 [![Latest Release][release]][release]
 
