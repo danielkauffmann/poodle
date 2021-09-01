@@ -27,6 +27,7 @@ share/python-wheels/
 *.swp
 poodle.egg-info/
 MANIFEST
+.DS_Store
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
