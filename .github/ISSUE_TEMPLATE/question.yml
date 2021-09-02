@@ -1,6 +1,6 @@
 name: Question or Problem
 description: Ask a question or ask about a problem
-labels: [question]
+labels: [question, bug, invalid]
 body:
   - type: markdown
     attributes:
