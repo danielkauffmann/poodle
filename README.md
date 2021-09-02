@@ -1,12 +1,12 @@
 # Poodle - Python integration with Moodle Web Service API
 
-> This package is used by [Moodle Organizer Bot](https://github.com/lsglucas/mob), a Discord multipurpose bot to get users data inside the Discord environment.
+> This package is beign used by [Moodle Organizer Bot](https://github.com/lsglucas/mob), a Discord multipurpose bot to get users data inside the Discord environment.
 
 [![Latest Release][release]][release]
 
-Description
+Description soon...
 
-## Usage
+## 🚀 Usage
 
 ```py
 from poodle import Mdl
@@ -20,28 +20,65 @@ mdl(token="YOUR_TOKEN", url="MOODLE_BASE_URL", wsfunction="MOODLE_API_FUNCTION")
 
 ## 💻 Development Setup
 
-For the firsts dependencies, you need to install all requirements in ```requirements.txt``` and you must have PostgreSQL installed in your machine. For now, you need to create the ```DiscordDB``` in your default public Schema, in the future that will be changed.
+Install the development dependencies by running:
 
 ```sh
-pip install -r requirements.txt  
+pip install -r requirements-dev.txt  
 ```
   
 ## ✅ Release History
 
-* 4.5.0
-  * [Moodle Rewrite Update](https://github.com/lsglucas/mob/releases/tag/4.5.0)
-* 3.0.0
-  * [Database Update](https://github.com/lsglucas/mob/releases/tag/3.0.0)
-* 2.0.0
-  * [Assignments Update](https://github.com/lsglucas/mob/releases/tag/2.0.0)
-* 1.0.0
-  * [Project and initial version release](https://github.com/lsglucas/mob/releases/tag/1.0.0)
+* 0.1.0
+  * Coming soon... 🚧
 
-## 👨🏻‍💻 Meta
+## 👨‍💻 Creators
 
-Daniel Kauffmann – [@danieldowombo](https://twitter.com/danieldowombo) – vkdaniel@icloud.com
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/danielkauffmann">
+        <img src="https://avatars.githubusercontent.com/u/62577994?v=4" width="150px;" alt="Daniel Kauffmann"/>
+        <br />
+        <a href="https://github.com/danielkauffmann">
+          <b>Daniel Kauffmann</b>
+        </a>
+        <br />
+        <p style="font-size: 2rem">
+          <a href="mailto:vkdaniel@icloud.com">
+            <img src="https://img.icons8.com/emoji/32/000000/envelope-.png" alt="E-mail"/>
+          </a>
+          <a href="https://www.linkedin.com/in/danielkauffmann">
+            <img src="https://img.icons8.com/color/32/000000/linkedin.png" alt="Linkedin"/>
+          </a>
+          <a href="https://twitter.com/danieldowombo">
+            <img src="https://img.icons8.com/fluency/32/000000/twitter--v3.png" alt="Twitter"/>
+          </a>
+        </p>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/lsglucas">
+        <img src="https://avatars.githubusercontent.com/u/61513630?v=4" width="150px;" alt="Lucas Garcia"/>
+        <br />
+        <a href="https://github.com/lsglucas">
+          <b>Lucas Garcia</b>
+        </a>
+        <br />
+        <p style="font-size: 2rem">
+          <a href="mailto:lsglucas@pm.me">
+            <img src="https://img.icons8.com/emoji/32/000000/envelope-.png" alt="E-mail"/>
+          </a>
+          <a href="https://www.linkedin.com/in/lsglucas">
+            <img src="https://img.icons8.com/color/32/000000/linkedin.png" alt="Linkedin"/>
+          </a>
+          <a href="https://twitter.com/lsglucass">
+            <img src="https://img.icons8.com/fluency/32/000000/twitter--v3.png" alt="Twitter"/>
+          </a>
+        </p>
+      </a>
+    </td>
+  </tr>
+</table>
 
-Lucas Garcia – [@lsglucass](https://twitter.com/lsglucass) – lsglucas@pm.me
-
-[release]: https://img.shields.io/github/v/release/lsglucas/mob
-[wiki]: https://github.com/lsglucas/mob/wiki
+## 🔖 License
+This project is licensed under the terms of the MIT license.
