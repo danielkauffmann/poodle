@@ -17,7 +17,7 @@ with open("README.md", "r") as fh:
 
 # build shortcut.
 if sys.argv[-1] == "build":
-    os.system("python3.9 setup.py bdist_wheel sdist")
+    os.system("python setup.py bdist_wheel sdist")
     sys.exit()
 
 
@@ -35,6 +35,7 @@ requires = [
 
 test_requirements = [
     "pytest>=6",
+    "pytest-cov>=2.12.1",
     "coveralls>=3.2.0",
 ]
 
@@ -51,7 +52,7 @@ setup(
     # package_data={"": ["LICENSE", "NOTICE"]},
     package_dir={"poodle": "poodle"},
     include_package_data=True,
-    python_requires=">=3.6.*",
+    python_requires=">=3.7.*",
     install_requires=requires,
     classifiers=[
         "Programming Language :: Python :: 3",
