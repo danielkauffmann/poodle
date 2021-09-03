@@ -1,15 +1,34 @@
 export const data = {
   "key": "v-de1d3eb4",
   "path": "/pt/guide/getting-started.html",
-  "title": "Getting Started",
+  "title": "Começando",
   "lang": "pt-BR",
   "frontmatter": {},
   "excerpt": "",
-  "headers": [],
+  "headers": [
+    {
+      "level": 2,
+      "title": "Pré requisistos",
+      "slug": "pre-requisistos",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "Instalação manual",
+      "slug": "instalacao-manual",
+      "children": []
+    }
+  ],
   "filePathRelative": "pt/guide/getting-started.md",
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1630642732000,
+    "contributors": [
+      {
+        "name": "Daniel Kauffmann",
+        "email": "danielvenna2@gmail.com",
+        "commits": 1
+      }
+    ]
   }
 }
 

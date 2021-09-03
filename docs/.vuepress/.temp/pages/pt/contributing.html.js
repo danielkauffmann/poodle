@@ -1,21 +1,15 @@
 export const data = {
-  "key": "v-fb0f0066",
-  "path": "/guide/getting-started.html",
-  "title": "Getting started",
-  "lang": "en-US",
+  "key": "v-27a0d45d",
+  "path": "/pt/contributing.html",
+  "title": "Contribuir",
+  "lang": "pt-BR",
   "frontmatter": {},
   "excerpt": "",
   "headers": [],
-  "filePathRelative": "guide/getting-started.md",
+  "filePathRelative": "pt/contributing.md",
   "git": {
-    "updatedTime": 1630642732000,
-    "contributors": [
-      {
-        "name": "Daniel Kauffmann",
-        "email": "danielvenna2@gmail.com",
-        "commits": 1
-      }
-    ]
+    "updatedTime": null,
+    "contributors": []
   }
 }
 

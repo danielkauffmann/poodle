@@ -21,7 +21,7 @@ export const themeData = {
             },
             {
               "text": "Contributing",
-              "link": "/api/contributing.md"
+              "link": "/contributing.md"
             }
           ]
         }
@@ -61,7 +61,7 @@ export const themeData = {
             },
             {
               "text": "Contribuir",
-              "link": "/pt/api/contributing.md"
+              "link": "/pt/contributing.md"
             }
           ]
         }

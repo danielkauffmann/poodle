@@ -27,8 +27,14 @@ export const data = {
   "headers": [],
   "filePathRelative": "pt/README.md",
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1630642732000,
+    "contributors": [
+      {
+        "name": "Daniel Kauffmann",
+        "email": "danielvenna2@gmail.com",
+        "commits": 1
+      }
+    ]
   }
 }
 

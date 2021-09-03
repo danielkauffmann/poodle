@@ -9,7 +9,7 @@ export const en: NavbarConfig = [
         text: "API",
         children: [
             { text: "Home", link: "/api/" },
-            { text: "Contributing", link: "/api/contributing.md" },
+            { text: "Contributing", link: "/contributing.md" },
         ],
     },
 ]

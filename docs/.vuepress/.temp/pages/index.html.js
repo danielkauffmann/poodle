@@ -26,8 +26,13 @@ export const data = {
   "headers": [],
   "filePathRelative": "README.md",
   "git": {
-    "updatedTime": 1630555991000,
+    "updatedTime": 1630642732000,
     "contributors": [
+      {
+        "name": "Daniel Kauffmann",
+        "email": "danielvenna2@gmail.com",
+        "commits": 1
+      },
       {
         "name": "Lucas",
         "email": "61513630+lsglucas@users.noreply.github.com",

@@ -1,15 +1,40 @@
 export const data = {
   "key": "v-5b174045",
   "path": "/pt/guide/",
-  "title": "Guia",
+  "title": "Introdução",
   "lang": "pt-BR",
   "frontmatter": {},
   "excerpt": "",
-  "headers": [],
+  "headers": [
+    {
+      "level": 2,
+      "title": "Como funciona",
+      "slug": "como-funciona",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "Motivação",
+      "slug": "motivacao",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "Criadores",
+      "slug": "criadores",
+      "children": []
+    }
+  ],
   "filePathRelative": "pt/guide/README.md",
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1630642732000,
+    "contributors": [
+      {
+        "name": "Daniel Kauffmann",
+        "email": "danielvenna2@gmail.com",
+        "commits": 1
+      }
+    ]
   }
 }
 
