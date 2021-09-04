@@ -27,12 +27,12 @@ export const data = {
   ],
   "filePathRelative": "pt/guide/README.md",
   "git": {
-    "updatedTime": 1630642732000,
+    "updatedTime": 1630693340000,
     "contributors": [
       {
         "name": "Daniel Kauffmann",
         "email": "danielvenna2@gmail.com",
-        "commits": 1
+        "commits": 2
       }
     ]
   }

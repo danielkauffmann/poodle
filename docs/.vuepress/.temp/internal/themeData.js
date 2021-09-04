@@ -83,7 +83,7 @@ export const themeData = {
       "editLinkText": "Edite esta página no GitHub",
       "lastUpdatedText": "Última atualização",
       "contributorsText": "Contribuidores",
-      "tip": "Ajuda",
+      "tip": "Dica",
       "warning": "Aviso",
       "danger": "Cuidado",
       "notFound": [

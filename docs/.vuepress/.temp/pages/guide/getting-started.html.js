@@ -5,7 +5,20 @@ export const data = {
   "lang": "en-US",
   "frontmatter": {},
   "excerpt": "",
-  "headers": [],
+  "headers": [
+    {
+      "level": 2,
+      "title": "Prerequisites",
+      "slug": "prerequisites",
+      "children": []
+    },
+    {
+      "level": 2,
+      "title": "Installation",
+      "slug": "installation",
+      "children": []
+    }
+  ],
   "filePathRelative": "guide/getting-started.md",
   "git": {
     "updatedTime": 1630642732000,

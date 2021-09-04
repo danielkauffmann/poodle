@@ -31,11 +31,53 @@ genéricas do MWS.
 
 
 ## Motivação
-...
+Certo dia estavamos no Discord jogando Rocket League e percebemos que já estava no horário da aula. 
+Nisso, surgiu a seguinte conversa:
+
+[comment]: <> (Lucas, 1)
+<div style="display: flex; width: fit-content; margin-bottom: 1rem; padding: .4rem; background-color: rgba(70, 70, 70, 0.3); border-radius: 10px;">
+    <img style="border-radius: 50%" src="https://avatars.githubusercontent.com/u/61513630?v=4" width="32px;" alt="Lucas"/>
+    <div style="align-self: center; margin-left: .5rem; font-size: .8rem">
+        a gente podia ter algum jeito de saber as aulas no Discord né?
+    </div>
+</div>
+
+[comment]: <> (Daniel, 1)
+<div style="display: flex; width: fit-content; margin-left: auto; margin-bottom: 1rem; padding: .4rem; background-color: rgba(70, 70, 70, 0.3); border-radius: 10px;">
+    <div style="align-self: center; margin-right: .5rem; font-size: .8rem">
+        se o Moodle tiver API dá kkkkk
+    </div>
+    <img style="border-radius: 50%" src="https://avatars.githubusercontent.com/u/62577994?v=4" width="32px;" alt="Daniel"/>
+</div>
+
+[comment]: <> (Lucas, 2)
+<div style="display: flex; width: fit-content; margin-bottom: 1rem; padding: .4rem; background-color: rgba(70, 70, 70, 0.3); border-radius: 10px;">
+    <img style="border-radius: 50%" src="https://avatars.githubusercontent.com/u/61513630?v=4" width="32px;" alt="Lucas"/>
+    <div style="align-self: center; margin-left: .5rem; font-size: .8rem">
+        mano kkkkkk será?
+    </div>
+</div>
+
+[comment]: <> (Daniel, 2)
+<div style="display: flex; width: fit-content; margin-left: auto; margin-bottom: 1rem; padding: .4rem; background-color: rgba(70, 70, 70, 0.3); border-radius: 10px;">
+    <div style="align-self: center; margin-right: .5rem; font-size: .8rem">
+        vou dar uma olhada pra ver se acho algo
+    </div>
+    <img style="border-radius: 50%" src="https://avatars.githubusercontent.com/u/62577994?v=4" width="32px;" alt="Daniel"/>
+</div>
+
+Dias depois voltei com a notícia que esta API realmente existia e havia encontrado a 
+[documentação oficial](https://docs.moodle.org/dev/Web_service_API_functions) para diferentes funcionalidades, apenas
+bastava descobrir se a nossa universidade ([UPM](https://www.mackenzie.br/)) tinha estes recursos públicos.
+Mais alguns dias seguintes, validamos a nossa teoria e prosseguimos com o desenvolvimento da ideia. 
+
+Assim então surgiu a ideia de construir esta integração e fomos aperfeiçoando a ideia até chegar no modelo onde haveria
+um Bot no Discord responsável por mandar avisos sobre trabalhos e visualizar aulas durante a semana. 
+A partir deste momento, a nossa criatividade descolou e não paramos até então.
 
 ## Criadores
-Eu (Daniel) e Lucas temos prazer em desenvolver este projeto em conjunto, produzindo as nossas ideias e disponibilizando
-para qualquer um fazer proveito e ajudar-nos a aperfeiçoar o projeto.
+Eu (Daniel) e o Lucas temos prazer em desenvolver este projeto em conjunto, produzindo as nossas ideias e disponibilizando
+para qualquer um fazer proveito e ajudar-nos a aperfeiçoar o projeto. Esperamos que tire algum aprendizado sempre!
 
 <table>
   <tr>
