@@ -1,9 +1,15 @@
 ---
 lang: en-US
-title: Guide
-description: Documentation for poodle
+home: true
+title: Home
+heroImage: /images/rlogo.png
+actions:
+  - text: Get Started
+    link: /guide/getting-started.html
+    type: primary
+  - text: Introduction
+    link: /guide/
+    type: secondary
+
+footer: MIT Licensed | Copyright © 2021-present Daniel Kauffmann & Lucas Garcia 
 ---
-
-# Guide
-
-Hello there :wave: be patient, we`re still building this page.
