@@ -115,7 +115,8 @@ export default defineUserConfig<DefaultThemeOptions>({
 				},
 			},
 		},
+    
 	},
 
-	bundler: "@vuepress/vite",
+  bundler: "@vuepress/vite",
 });

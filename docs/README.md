@@ -11,5 +11,5 @@ actions:
     link: /guide/
     type: secondary
 
-footer: MIT Licensed | Copyright © 2021-{{ new Date().getFullYear() }} Daniel Kauffmann & Lucas Garcia 
+footer: MIT Licensed | Copyright © 2021-now Daniel Kauffmann & Lucas Garcia 
 ---
