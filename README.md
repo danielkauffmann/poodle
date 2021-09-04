@@ -2,9 +2,7 @@
 
 > This package is beign used by [Moodle Organizer Bot](https://github.com/lsglucas/mob), a Discord multipurpose bot to get users data inside the Discord environment.
 
-[![Latest Release][release]][release]
-
-Description soon...
+#### See the full documentation at [Poodle Docs](https://danielkauffmann.github.io/poodle/)
 
 ## 🚀 Usage
 
