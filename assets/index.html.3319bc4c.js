@@ -1,0 +1,1 @@
+import{o as a,c as e,a as r,b as n}from"./app.5af76e71.js";const s={},i={id:"api-en",tabindex:"-1"},t=[r("a",{class:"header-anchor",href:"#api-en","aria-hidden":"true"},"#",-1),n(" API EN")];s.render=function(r,n){return a(),e("h1",i,t)};export{s as default};

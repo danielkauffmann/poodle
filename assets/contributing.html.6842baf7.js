@@ -1,0 +1,1 @@
+import{o as r,c as a,a as e,b as i}from"./app.5af76e71.js";const n={},t={id:"contribuir",tabindex:"-1"},o=[e("a",{class:"header-anchor",href:"#contribuir","aria-hidden":"true"},"#",-1),i(" Contribuir")];n.render=function(e,i){return r(),a("h1",t,o)};export{n as default};
